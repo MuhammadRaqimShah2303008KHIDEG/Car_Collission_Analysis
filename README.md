@@ -16,3 +16,6 @@ To install the project, follow these steps:
   - pip install -r requirements.txt
   - streamlit run app.py
 
+ ## App running link
+ https://huggingface.co/spaces/raqim/motor_collision_analysis 
+
