@@ -7,10 +7,10 @@ import base64
 import time
 import zipfile
 # https://data.cityofnewyork.us/api/views/h9gi-nx95/rows.csv?accessType=DOWNLOAD
-with zipfile.ZipFile('data_set.zip', 'r') as zip_ref:
+with zipfile.ZipFile('Motor_Vehicle_Collisions_-_Crashes.zip', 'r') as zip_ref:
     zip_ref.extractall('.')
 DATA_URL=(
-    "data_set.csv"
+    "Motor_Vehicle_Collisions_-_Crashes.csv"
 )
 
 def streamlit_styling():
